@@ -1,6 +1,7 @@
 :root {
   --color-brand-1: #c2255c;
   --color-brand-2: #d6336c;
+  --color-brand-3: #520F84;
   --color-grey-1: #191c1f;
   --color-grey-2: #212529;
   --color-grey-3: #33363a;
@@ -9,4 +10,63 @@
   --color-grey-7: #ffffff;
   --color-alert: #c22554;
   --font-primary: "Inter", sans-serif;
+}
+.title1-component {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title2-component {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title-user-name{
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+.paragraph-component {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.label-component {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.button-component {
+  color: var(--color-grey-7);
+  font-style: normal;
+  font-weight: 500;
+  font-size: .875rem;
+  line-height: 150%;
+}
+.title-repositories-component{
+color: var(--color-grey-7);
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.description-repositories-component{
+color: #FFFFFF60;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
 }

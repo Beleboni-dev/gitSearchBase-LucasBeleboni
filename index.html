@@ -3,20 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"rel="stylesheet"/>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <!-- Script -->
+    <script type="module" src="./src/scripts/index.js" defer></script>
+    <!-- Title -->
     <title>Git Search</title>
   </head>
   <body>
-
-    <script type="module" src="./src/scripts/index.js"></script>
+    <main class="main__container">
+      <div class="container__boxes left-container">
+        <div class="left-container__content-wrapper">
+          <h1 class="left-container__logo-title title1-component">Git Search</h1>
+          <p class="left-container__text paragraph-component">Encontre e se conecte com profissionais de forma rápida e fácil </p>
+        </div>
+      </div>
+      <div class="container__boxes right-container">
+        <form action="" class="right-container__search-form">
+          <h2 class="right-container__title-search title2-component">Procurar por um usuário</h2>
+          <label class="right-container__search-label label-component" for="search-way">Usuário github</label>
+          <input type="search" name="search-way" id="search-way" class="right-container__search-input" placeholder="Digite um usuário do github aqui...">
+          <button class="right-container__search-button button-component" id="search-button">Ver perfil do github</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
